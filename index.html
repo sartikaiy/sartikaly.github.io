@@ -12,7 +12,11 @@
     <div class="logo">IY</div>
     <h1>stuffby_iy</h1>
 
-    <input id="searchInput" placeholder="🔍 Cari produk..." onkeyup="filterProducts()">
+    <input 
+      id="searchInput" 
+      placeholder="🔍 Cari produk..." 
+      onkeyup="filterProducts()"
+    >
 
     <div id="category">
       <button onclick="setCategory('all')">All</button>
@@ -25,57 +29,60 @@
     <div id="products"></div>
   </div>
 
-  <!-- DATA -->
+  <!-- DATA PRODUK -->
   <script src="products_part1.js"></script>
-<script src="products_part2.js"></script>
-<script src="products_part3.js"></script>
+  <script src="products_part2.js"></script>
+  <script src="products_part3.js"></script>
 
-<script>
-  let currentCategory = "all";
+  <!-- LOGIKA -->
+  <script>
+    let currentCategory = "all";
 
-  const allProducts = [
-    ...productsPart1,
-    ...productsPart2,
-    ...productsPart3
-  ];
+    const allProducts = [
+      ...productsPart1,
+      ...productsPart2,
+      ...productsPart3
+    ];
 
-  const productsDiv = document.getElementById("products");
+    const productsDiv = document.getElementById("products");
 
-  function renderProducts(){
-    productsDiv.innerHTML = "";
+    function renderProducts(){
+      productsDiv.innerHTML = "";
 
-    allProducts.forEach(p => {
-      const div = document.createElement("div");
-      div.className = "product";
-      div.dataset.name = p.name.toLowerCase();
-      div.dataset.category = p.category;
+      allProducts.forEach(p => {
+        const div = document.createElement("div");
+        div.className = "product";
+        div.dataset.name = p.name.toLowerCase();
+        div.dataset.category = p.category;
 
-      div.innerHTML = `
-        <a href="${p.link}" target="_blank" class="card">
-          <img src="${p.img}" alt="${p.name}">
-          <div class="title">${p.name}</div>
-        </a>
-      `;
+        div.innerHTML = `
+          <a href="${p.link}" target="_blank" class="bubble">
+            <span class="icon">✨</span>
+            <span class="title">${p.name}</span>
+          </a>
+        `;
 
-      productsDiv.appendChild(div);
-    });
-  }
+        productsDiv.appendChild(div);
+      });
+    }
 
-  function setCategory(cat){
-    currentCategory = cat;
-    filterProducts();
-  }
+    function setCategory(cat){
+      currentCategory = cat;
+      filterProducts();
+    }
 
-  function filterProducts(){
-    const q = document.getElementById("searchInput").value.toLowerCase();
-    document.querySelectorAll(".product").forEach(p=>{
-      const name = p.dataset.name;
-      const cat = p.dataset.category;
-      const showName = name.includes(q);
-      const showCat = (currentCategory==="all" || currentCategory===cat);
-      p.style.display = (showName && showCat) ? "block" : "none";
-    });
-  }
+    function filterProducts(){
+      const q = document.getElementById("searchInput").value.toLowerCase();
+      document.querySelectorAll(".product").forEach(p=>{
+        const name = p.dataset.name;
+        const cat = p.dataset.category;
+        const showName = name.includes(q);
+        const showCat = (currentCategory==="all" || currentCategory===cat);
+        p.style.display = (showName && showCat) ? "block" : "none";
+      });
+    }
 
-  renderProducts();
-</script>
+    renderProducts();
+  </script>
+</body>
+</html>
