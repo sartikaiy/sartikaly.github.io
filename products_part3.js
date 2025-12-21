@@ -150,5 +150,105 @@ const productsPart3 = [
     name: "70. 👡 Flatshoes Premium",
     category: "fashion",
     link: "https://s.shopee.co.id/2qNfPhT26U"
+  } ,
+  {
+    name: "71. 👡 Occilouisa Flatshoes",
+    category: "fashion",
+    link: "https://s.shopee.co.id/AUn6mmPZYt"
+  },
+  {
+    name: "72. 👡 Sakaki Patricia Flatshoes",
+    category: "fashion",
+    link: "https://s.shopee.co.id/7AWeokdcT2"
+  },
+  {
+    name: "73. 👡 Felice Flatshoes",
+    category: "fashion",
+    link: "https://s.shopee.co.id/1LYrs9VzSj"
+  },
+  {
+    name: "74. 👡 Breezy Street Flatshoes",
+    category: "fashion",
+    link: "https://s.shopee.co.id/9Kb9OyH3wz"
+  },
+  {
+    name: "75. 👡 Sakaki Evelyn",
+    category: "fashion",
+    link: "https://s.shopee.co.id/4LCTRtoruO"
+  },
+  {
+    name: "76. 👡 Yesplus Flatshoes Jelly",
+    category: "fashion",
+    link: "https://s.shopee.co.id/AKTgbLH2ih"
+  },
+  {
+    name: "77. 👡 A&G Flatshoes Mules",
+    category: "fashion",
+    link: "https://s.shopee.co.id/3LJwGbrnRF"
+  },
+  {
+    name: "78. 👡 King Ballet Suede Elegan",
+    category: "fashion",
+    link: "https://s.shopee.co.id/70DEdUEXzk"
+  },
+  {
+    name: "79. 👡 King Ballet Kimmy",
+    category: "fashion",
+    link: "https://s.shopee.co.id/1BFRgsBEz1"
+  },
+  {
+    name: "80. 👡 King Ballet Selena",
+    category: "fashion",
+    link: "https://s.shopee.co.id/5q1HFXrOYW"
+  },
+  {
+    name: "81. 👡 Xuo Flatshoes",
+    category: "fashion",
+    link: "https://s.shopee.co.id/4At442x86d"
+  },
+  {
+    name: "82. 👡 Xuo Flatshoes Loafers",
+    category: "fashion",
+    link: "https://s.shopee.co.id/8APCpTFl8R"
+  },
+  {
+    name: "83. 👡 Nevada Flatshoes BL57",
+    category: "fashion",
+    link: "https://s.shopee.co.id/4q8krSP4TZ"
+  },
+  {
+    name: "84. 👡 Ballerina Flatshoes Two-tone",
+    category: "fashion",
+    link: "https://s.shopee.co.id/9fE0cTCVvD"
+  },
+  {
+    name: "85. 👡 Aysera Flatshoes",
+    category: "fashion",
+    link: "https://s.shopee.co.id/qcc6QjLmK"
+  },
+  {
+    name: "86. 👡 Erakino Flatshoes Glossy",
+    category: "fashion",
+    link: "https://s.shopee.co.id/9AHk3Sb9Au"
+  },
+  {
+    name: "87. 👡 Xuo Flatshoes A06",
+    category: "fashion",
+    link: "https://s.shopee.co.id/VzljjuE8m"
+  },
+  {
+    name: "88. 👡 Durachi Tali Dua Gesper",
+    category: "fashion",
+    link: "https://s.shopee.co.id/3LJx736vyw"
+  },
+  {
+    name: "89. 👡 Flatshoes Tali Strap Pita",
+    category: "fashion",
+    link: "https://s.shopee.co.id/LgLXhSGr4"
+  },
+  {
+    name: "90. 👠 ADK Omika Heels",
+    category: "fashion",
+    link: "https://s.shopee.co.id/40Zdub5Fp9"
   }
 ];

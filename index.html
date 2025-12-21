@@ -33,6 +33,7 @@
   <script src="products_part1.js"></script>
   <script src="products_part2.js"></script>
   <script src="products_part3.js"></script>
+  <script src="products_part4.js"></script> <!-- ✅ TAMBAHAN -->
 
   <!-- LOGIKA -->
   <script>
@@ -41,7 +42,8 @@
     const allProducts = [
       ...productsPart1,
       ...productsPart2,
-      ...productsPart3
+      ...productsPart3,
+      ...productsPart4   // ✅ PRODUCT 4 MASUK
     ];
 
     const productsDiv = document.getElementById("products");
@@ -57,7 +59,6 @@
 
         div.innerHTML = `
           <a href="${p.link}" target="_blank" class="bubble">
-            <span class="icon">✨</span>
             <span class="title">${p.name}</span>
           </a>
         `;
