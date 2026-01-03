@@ -98,5 +98,92 @@ const productsPart4 = [
     name: "110. 👠 Delline Heels Glitter Tanpa Tali Belakang",
     category: "fashion",
     link: "https://s.shopee.co.id/4At4VqnM6K"
+  },
+
+  /* === TAMBAHAN HEELS === */
+  {
+    name: "111. 👠 Heels Pita",
+    category: "fashion",
+    link: "https://s.shopee.co.id/50SDJLi7PD"
+  },
+  {
+    name: "112. 👠 Heels Rantai ZR190",
+    category: "fashion",
+    link: "https://s.shopee.co.id/6faRIUrplX"
+  },
+  {
+    name: "113. 👠 Heels ZR195 Pita Kristal",
+    category: "fashion",
+    link: "https://s.shopee.co.id/7V9YI5dcyD"
+  },
+  {
+    name: "114. 👠 Heels CS236 Kulit Sintetis Simple",
+    category: "fashion",
+    link: "https://s.shopee.co.id/1BFUkYv3q4"
+  },
+  {
+    name: "115. 👠 Sandy Heels Dakota Black",
+    category: "fashion",
+    link: "https://s.shopee.co.id/7V9YIf3ho4"
+  },
+  {
+    name: "116. 👠 Sandy Heels Carol",
+    category: "fashion",
+    link: "https://s.shopee.co.id/AUn9sK1IaA"
+  },
+  {
+    name: "117. 👠 Sandy Heels Layla",
+    category: "fashion",
+    link: "https://s.shopee.co.id/AAAJTyiyyR"
+  },
+  {
+    name: "118. 👠 Lawrensia Sally Heels Ankle Sling Glitter 8cm",
+    category: "fashion",
+    link: "https://s.shopee.co.id/805ouOkufj"
+  },
+  {
+    name: "119. 👠 Heels Pointed Toe Tali Kristal",
+    category: "fashion",
+    link: "https://s.shopee.co.id/gJFZDQCfC"
+  },
+  {
+    name: "120. 👠 Heels Wedding Kristal",
+    category: "fashion",
+    link: "https://s.shopee.co.id/3LK0kAxJmE"
+  },
+  {
+    name: "121. 👠 Heels Pointed Toe Glitter",
+    category: "fashion",
+    link: "https://s.shopee.co.id/6faSiNZBri"
+  },
+  {
+    name: "122. 👠 Rose Heels Casual",
+    category: "fashion",
+    link: "https://s.shopee.co.id/VzpN8YaVd"
+  },
+  {
+    name: "123. 👠 Jenna Wedding Heels",
+    category: "fashion",
+    link: "https://s.shopee.co.id/AKTl5IQH7R"
+  },
+  {
+    name: "124. 👠 Arsya Heels 5cm Glitter Flower",
+    category: "fashion",
+    link: "https://s.shopee.co.id/4fpOL04fuP"
+  },
+  {
+    name: "125. 👠 Heels Korean Look",
+    category: "fashion",
+    link: "https://s.shopee.co.id/1gBmlZZjNA"
+  },
+  {
+    name: "126. 👠 Heels Korean Look Slingback Mutiara",
+    category: "fashion",
+    link: "https://s.shopee.co.id/40ZhXvYa7V"
+  },
+  {
+    name: "127. 👠 Heels Rectangle Glitter",
+    category: "fashion",
+    link: "https://s.shopee.co.id/AAAKtOySqu"
   }
 ];
